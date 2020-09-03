@@ -99,8 +99,11 @@
       </v-tabs-items>
     </v-main>
     <v-footer light>
-      <v-col class="text-center" cols="12">
+      <v-col >
         {{ new Date().getFullYear() }} — <strong>洛沐家</strong>
+      </v-col>
+      <v-col>
+        <a class="text-body-1" href="http://www.beian.miit.gov.cn">辽ICP备2020011396</a>
       </v-col>
     </v-footer>
   </v-app>
